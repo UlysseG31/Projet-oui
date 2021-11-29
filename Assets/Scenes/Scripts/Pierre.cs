@@ -10,7 +10,7 @@ public class Pierre : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        pierreTxt.text = "5";
+        pierreTxt.text = "0";
     }
 
     // Update is called once per frame

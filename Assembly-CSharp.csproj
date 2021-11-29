@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,15 +53,16 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
+    <Compile Include="Assets\Scenes\Scripts\Pierre.cs" />
     <Compile Include="Assets\Scenes\Scripts\B_droit.cs" />
     <Compile Include="Assets\Scenes\Scripts\B_gauche.cs" />
     <Compile Include="Assets\Scenes\Scripts\Arènes.cs" />
     <Compile Include="Assets\Scenes\Scripts\play.cs" />
     <Compile Include="Assets\Scenes\Scripts\Carrière.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Pierre.cs" />
+    <Compile Include="Assets\Scenes\Scripts\pierre_used.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ok_intro.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ok_phase2.cs" />
+    <Compile Include="Assets\Scenes\Scripts\ok_phase3.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
