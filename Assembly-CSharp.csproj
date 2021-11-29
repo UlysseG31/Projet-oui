@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9DD624B7-D884-5730-210B-FD934FBF55A1}</ProjectGuid>
+    <ProjectGuid>{55EB8E96-0E7A-3F7F-4936-0D53DF2A5EA6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,11 +56,12 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scenes\Scripts\Arènes.cs" />
-    <Compile Include="Assets\Scenes\Scripts\Carrière.cs" />
-    <Compile Include="Assets\Scenes\Scripts\B_gauche.cs" />
     <Compile Include="Assets\Scenes\Scripts\B_droit.cs" />
+    <Compile Include="Assets\Scenes\Scripts\B_gauche.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Arènes.cs" />
     <Compile Include="Assets\Scenes\Scripts\play.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Carrière.cs" />
+    <Compile Include="Assets\Scenes\Scripts\Pierre.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
