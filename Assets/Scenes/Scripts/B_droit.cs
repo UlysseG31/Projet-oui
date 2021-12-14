@@ -8,7 +8,9 @@ public class B_droit : MonoBehaviour
     public GameObject cam;
     public GameObject bouton1;
     public GameObject bouton2;
+    public GameObject boutonD2;
     public GameObject pierre_needed;
+    public GameObject pierre_needed_logo;
     public GameObject pierre_used;
     public GameObject txt_carriere;
     public GameObject txt_arene;
@@ -24,10 +26,13 @@ public class B_droit : MonoBehaviour
         cam.transform.position = camera2;
         bouton1.SetActive(true);
         bouton2.SetActive(false);
+        boutonD2.SetActive(true);
         hitbox.SetActive(false);
         pierre_needed.SetActive(false);
+        pierre_needed_logo.SetActive(false);
         pierre_used.SetActive(false);
         txt_carriere.SetActive(true);
+        boutonD2.SetActive(true);
         txt_arene.SetActive(false);
     }
 
