@@ -11,6 +11,11 @@ public class Taillage : MonoBehaviour
         
     }
 
+    public void OnMouseDown()
+    {
+        clicked = true;
+    }
+
     // Update is called once per frame
     void Update()
     {
